@@ -1688,4 +1688,7 @@
 
 .fixed-height-web{
 	height: 300px;
+	@media screen and (max-width: 380px) {
+		height: 180px;
+	}
 }

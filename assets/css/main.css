@@ -2328,5 +2328,10 @@ button.large,
 .fixed-height-web {
   height: 300px;
 }
+@media screen and (max-width: 380px) {
+  .fixed-height-web {
+    height: 180px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
